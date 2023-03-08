@@ -66,9 +66,9 @@ public class Robot extends TimedRobot {
     
     xboxController = new XboxController(0);
     encoderJoint1 = new Encoder(0, 1); 
-    encoderJoint1.setDistancePerPulse(0.01); 
+    encoderJoint1.setDistancePerPulse(0.01);#need to be altered according to gear ratio  
     encoderJoint2 = new Encoder(2, 3); 
-    encoderJoint2.setDistancePerPulse(0.01);
+    encoderJoint2.setDistancePerPulse(0.01);#need to be altered according to gear ratio  
 
     motorJoint1a = new VictorSP(1); 
     motorJoint1b = new VictorSP(2); 
